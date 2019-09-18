@@ -1,12 +1,12 @@
 
 # UVA workshop!
 
-<red>Fork edits</red>
+<em>Fork edits</em>
 
 # git-intro
 
 
-Changes made here. More changes.
+<em>Changes made here. More changes.</em>
 
 UVA Library Workshop on Introduction to Git and GitHub/GitLab.
 
@@ -168,5 +168,5 @@ Now we have two branches: master and readme-edits
 3. Edit it yourself
 4. Have a friend do some edits as well
 
-# This is an additional edit for practice.
-Hopefully this works 
+<em># This is an additional edit for practice.
+Hopefully this works </em>
