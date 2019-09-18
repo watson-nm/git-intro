@@ -127,7 +127,7 @@ Now we have two branches: master and readme-edits
   3. Now we can delete the readme-edits branch, since its changes have been incorporated into master. You'll be prompted to do so inside the purple box. 
   ![alt text](https://guides.github.com/activities/hello-world/delete-button.png "delete branch")
   
-  ### Step 5.1 - Resolving Conflicts when Merging Pull Requests.
+  ### Step 5.1 - Resolving Conflicts when Merging Pull Requests
   [https://help.github.com/en/articles/resolving-a-merge-conflict-on-github](https://help.github.com/en/articles/resolving-a-merge-conflict-on-github)
   * Any time a merge is attempted when changes have been made to both versions of the same line of a file (in the master and in a fork, say), then you will have to resolve the conflicts in the merge.
   * Often, you can just use the github interface to do this. If this is the case (i.e., the conflict isn't too complex), a Resolve Conflicts button will appear (and not be greyed-out). 
