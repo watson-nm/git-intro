@@ -1,9 +1,15 @@
+
+# UVA workshop!
+
 Fork edits
+
 # git-intro
+
 
 Changes made here. More changes.
 
-UVA Library Workshop on Introduction to Git and GitHub/GitLab. With changes
+UVA Library Workshop on Introduction to Git and GitHub/GitLab.
+
 
 
 This file exists here: https://github.com/rjp0i/git-intro (or visit [here](https://rjp0i.github.io/intro.Fall2019.html) for a prettified view)
@@ -52,8 +58,8 @@ You can look at GitHub's [Git Handbook](https://guides.github.com/introduction/g
 3. Tips on getting help
 
 ## Reference for Git
-The book <em>Computing Skills for Biologists: A Toolbox</em> contains a very useful introduction to Git, with practice data and code. Members of the UVA community can access the book [online](http://proxy01.its.virginia.edu/login?url=http://www.degruyter.com/isbn/9780691183961). 
-The examples, data, code and solutions are hosted on a [github repo](https://github.com/CSB-book/CSB]https://github.com/CSB-book/CSB)
+The book <em>Computing Skills for Biologists: A Toolbox</em> contains a useful introduction to Git with practice data and code. Members of the UVA community can access the book [online](http://proxy01.its.virginia.edu/login?url=http://www.degruyter.com/isbn/9780691183961). 
+The examples, data, code, and solutions are hosted on a [github repo](https://github.com/CSB-book/CSB]https://github.com/CSB-book/CSB)
 
 ### A brief history of Version Control
 * CVS (1990s) Centralized (client-server)
