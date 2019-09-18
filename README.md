@@ -5,7 +5,11 @@ Fork edits
 
 # git-intro
 
-UVA Library Workshop on Introduction to Git and GitHub/GitLab. 
+
+Changes made here. More changes.
+
+UVA Library Workshop on Introduction to Git and GitHub/GitLab.
+
 
 
 This file exists here: https://github.com/rjp0i/git-intro (or visit [here](https://rjp0i.github.io/intro.Fall2019.html) for a prettified view)
