@@ -67,7 +67,7 @@ The examples, data, code, and solutions are hosted on a [github repo](https://gi
 * git (2005) Distributed. Developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) for Linux development.
 
 ### Getting Started: Hello World
-* Let's walk through GitHub's [Hello World Guide](https://guides.github.com/activities/hello-world/)
+* Let's walk through GitHub's [Hello World Guide](https://guides.github.com/activities/hello-world/) in the steps below.
 
 ### Using Github
 ### Step 0 - inspect this current repo
@@ -118,7 +118,7 @@ Now we have two branches: master and readme-edits
   5. Write a title and a brief description of your changes ![alt text](https://guides.github.com/activities/hello-world/pr-form.png "Step 5")
   6. Click Create Pull Request
   
-  ### Step 4.5 - Merging Pull Requests
+  ### Step 5 - Merging Pull Requests
   [https://guides.github.com/activities/hello-world/#merge](https://guides.github.com/activities/hello-world/#merge)
   * Now, let's merge the Pull Request, to bring the changes from readme-edits into the master branch.
   1. Click the green Merge pull request button to merge the changes into master.
@@ -126,6 +126,18 @@ Now we have two branches: master and readme-edits
   2. Click Confirm merge.
   3. Now we can delete the readme-edits branch, since its changes have been incorporated into master. You'll be prompted to do so inside the purple box. 
   ![alt text](https://guides.github.com/activities/hello-world/delete-button.png "delete branch")
+  
+  ### Step 5.1 - Resolving Conflicts when Merging Pull Requests.
+  [https://help.github.com/en/articles/resolving-a-merge-conflict-on-github](https://help.github.com/en/articles/resolving-a-merge-conflict-on-github)
+  * Any time a merge is attempted when changes have been made to both versions of the same line of a file (in the master and in a fork, say), then you will have to resolve the conflicts in the merge.
+  * Often, you can just use the github interface to do this. If this is the case (i.e., the conflict isn't too complex), a Resolve Conflicts button will appear (and not be greyed-out). 
+  * Clicking on "Resolve Conflicts" will show you the conflict and use symbols to indicate the location of the conflict (<<<<<<<, =======, >>>>>>>) as well as the name of the two branches/forks that are in conflict, and the two versions of the conflicting line. 
+  * Choose the correct version of the line (or edit one version), and remove the other version, and remove the symbols and the branch/fork names, leaving just the text you want in the final version.
+  * Resolve all of the conflicts in the file.
+  * Click on Mark as Resolved.
+  * Resolve any other conflicting files
+  * Click on Commit Merge (and click on the I understand pop-up).
+  * Finally, click on Merge Pull Request.
 
 
 
