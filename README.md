@@ -134,7 +134,7 @@ Now we have two branches: master and readme-edits
   ![alt text](https://help.github.com/assets/images/help/pull_requests/resolve-merge-conflicts-button.png "resolve conflicts")
   * Clicking on "Resolve Conflicts" will show you the conflict and use symbols to indicate the location of the conflict (<<<<<<< <em>branch1-name</em>, =======, >>>>>>><em>branch2-name</em>), and the two versions of the conflicting line. 
   ![alt_text](https://help.github.com/assets/images/help/pull_requests/view-merge-conflict-with-markers.png "Conflict Markers")
-  * Choose the correct version of the line (or edit one version), and remove the other version, and remove the symbols and the branch/fork names, leaving just the text you want in the final version.
+  * Choose the correct version of the line (or edit one version), then remove the other version and remove the symbols and the branch/fork names, <em>leaving only the text you want in the final version</em>.
   * Resolve any other marked conflicts in the file.
   * Click on Mark as Resolved.
   ![alt_text](https://help.github.com/assets/images/help/pull_requests/mark-as-resolved-button.png "Mark Resolved")
