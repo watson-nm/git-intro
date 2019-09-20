@@ -1,4 +1,5 @@
 
+
 # UVA workshop!
 
 ```diff
@@ -49,11 +50,11 @@ You can look at GitHub's [Git Handbook](https://guides.github.com/introduction/g
 ## Getting Git
 * To play along you will need a [GitHub](https://github.com) account --> https://github.com/
 
-* If on mac/linux you probably already have git, but we also want GitHub Desktop
-  * goto [http://desktop.github.com](http://desktop.github.com) and download
+* If on mac/linux you probably already have git, but we also want GitHub Desktop.
+  * go to [http://desktop.github.com](http://desktop.github.com) and download.
   
 * If on windows, the latest version of GitHub desktop [http://desktop.github.com](http://desktop.github.com) is fine for today, but it won't include the git "command line tools."  They are available:
-  * Go to [https://gitforwindows.org/](https://gitforwindows.org/) and download
+  * Go to [https://gitforwindows.org/](https://gitforwindows.org/) and download.
 
 ## Outline
 0. Some background
@@ -63,7 +64,7 @@ You can look at GitHub's [Git Handbook](https://guides.github.com/introduction/g
 
 ## Reference for Git
 The book <em>Computing Skills for Biologists: A Toolbox</em> contains a useful introduction to Git with practice data and code. Members of the UVA community can access the book [online](http://proxy01.its.virginia.edu/login?url=http://www.degruyter.com/isbn/9780691183961). 
-The examples, data, code, and solutions are hosted on a [github repo](https://github.com/CSB-book/CSB]https://github.com/CSB-book/CSB)
+The examples, data, code, and solutions are hosted on a [github repo](https://github.com/CSB-book/CSB]https://github.com/CSB-book/CSB).
 
 ### A brief history of Version Control
 * CVS (1990s) Centralized (client-server)
@@ -74,7 +75,7 @@ The examples, data, code, and solutions are hosted on a [github repo](https://gi
 * Let's walk through GitHub's [Hello World Guide](https://guides.github.com/activities/hello-world/) in the steps below.
 
 ### Using Github
-### Step 0 - inspect this current repo
+### Step 0 - Inspect this Current Repo
 * In a web browser, visit this repo: [https://github.com/rjp0i/git-intro](https://github.com/rjp0i/git-intro)
 * We are in the github interface:
   1. upper left corner: notebook icon next to rjp0i/git-intro  (a repo)
@@ -82,7 +83,7 @@ The examples, data, code, and solutions are hosted on a [github repo](https://gi
   3. list of files (how to browse the files)
   4. readme.md is rendered as Markdown (github automatically shows the readme file, very handy)
   
-### Step 1 - create your own repo 
+### Step 1 - Create your own Repo 
 [https://guides.github.com/activities/hello-world/#repository](https://guides.github.com/activities/hello-world/#repository)
 * Not so obvious, but in the upper right hand corner, click the '+' button, pull down: select 'new repository'
   1. name (this will be the address of the repo...)
@@ -91,7 +92,7 @@ The examples, data, code, and solutions are hosted on a [github repo](https://gi
   4. initialize with readme (alway say yes)
   5. license
   
-### Step 2 - create a branch (Direct Collaborators)
+### Step 2 - Create a Branch (for Direct Collaborators)
 [https://guides.github.com/activities/hello-world/#branch](https://guides.github.com/activities/hello-world/#branch)
 * Let's leave the master branch alone and create a new branch
  1. Click the drop down at the top of the file list that says branch: master.
@@ -100,7 +101,7 @@ The examples, data, code, and solutions are hosted on a [github repo](https://gi
 
 Now we have two branches: master and readme-edits
 
-### Step 3 - edit a file and commit changes
+### Step 3 - Edit a File and Commit Changes
 [https://guides.github.com/activities/hello-world/#commit](https://guides.github.com/activities/hello-world/#commit)
 * You should now be in the readme-edits branch.
 * Click on README.md in the list and then click the pencil to edit the file
@@ -112,39 +113,39 @@ Now we have two branches: master and readme-edits
     
 * Now the master and readme-edits branches differ
     
-### Step 4 - Pull requests
+### Step 4 - Making Pull Requests
 [https://guides.github.com/activities/hello-world/#pr](https://guides.github.com/activities/hello-world/#pr)
 * Indirect Collaboration - pull requests
-  1. Click the "Pull Request" tab, then "New pull request" ![alt text](https://guides.github.com/activities/hello-world/pr-tab.gif "Step 1")
-  2. In the Example Comparisons box, select the branch you made, readme-edits, to compare with master (the original).![alt text](https://guides.github.com/activities/hello-world/pick-branch.png "Step 2")
-  3. Proofread your changes in the diffs on the Compare page ![alt text](https://guides.github.com/activities/hello-world/diff.png "Step 3")
-  4. When ready to submit, click the Create Pull Request Button ![alt text](https://guides.github.com/activities/hello-world/create-pr.png "Step 4")
-  5. Write a title and a brief description of your changes ![alt text](https://guides.github.com/activities/hello-world/pr-form.png "Step 5")
+  1. Click the "Pull Request" tab, then "New pull request" ![alt text](https://guides.github.com/activities/hello-world/pr-tab.gif "Pull Step 1")
+  2. In the Example Comparisons box, select the branch you made, readme-edits, to compare with master (the original).![alt text](https://guides.github.com/activities/hello-world/pick-branch.png "Pull Step 2")
+  3. Proofread your changes in the diffs on the Compare page ![alt text](https://guides.github.com/activities/hello-world/diff.png "Pull Step 3")
+  4. When ready to submit, click the Create Pull Request Button ![alt text](https://guides.github.com/activities/hello-world/create-pr.png "Pull Step 4")
+  5. Write a title and a brief description of your changes ![alt text](https://guides.github.com/activities/hello-world/pr-form.png "Pull Step 5")
   6. Click Create Pull Request
   
   ### Step 5 - Merging Pull Requests
   [https://guides.github.com/activities/hello-world/#merge](https://guides.github.com/activities/hello-world/#merge)
   * Now, let's merge the Pull Request, to bring the changes from readme-edits into the master branch.
   1. Click the green Merge pull request button to merge the changes into master.
-    ![alt text](https://guides.github.com/activities/hello-world/merge-button.png "step 4.5")
+    ![alt text](https://guides.github.com/activities/hello-world/merge-button.png "Merge Step 1")
   2. Click Confirm merge.
   3. Now we can delete the readme-edits branch, since its changes have been incorporated into master. You'll be prompted to do so inside the purple box. 
-  ![alt text](https://guides.github.com/activities/hello-world/delete-button.png "delete branch")
+  ![alt text](https://guides.github.com/activities/hello-world/delete-button.png "Merge Step 2")
   
   ### Step 5.1 - Resolving Conflicts when Merging Pull Requests
   [https://help.github.com/en/articles/resolving-a-merge-conflict-on-github](https://help.github.com/en/articles/resolving-a-merge-conflict-on-github)
   * Any time a merge is attempted when changes have been made to both versions of the same line of a file (in the master and in a fork, say), then you will have to resolve the conflicts in the merge.
   * Often, you can just use the github interface to do this. If this is the case (i.e., the conflict isn't too complex), a Resolve Conflicts button will appear (and not be greyed-out). 
-  ![alt text](https://help.github.com/assets/images/help/pull_requests/resolve-merge-conflicts-button.png "resolve conflicts")
-  * Clicking on "Resolve Conflicts" will show you the conflict and use symbols to indicate the location of the conflict (`<<<<<<< <em>branch1-name</em>`, `=======`, `>>>>>>><em>branch2-name</em>`), and the two versions of the conflicting line. 
-  ![alt_text](https://help.github.com/assets/images/help/pull_requests/view-merge-conflict-with-markers.png "Conflict Markers")
+  ![alt text](https://help.github.com/assets/images/help/pull_requests/resolve-merge-conflicts-button.png "Conflicts Step 1")
+  * Clicking on "Resolve Conflicts" will show you the conflict and use symbols to indicate the location of the conflict (`<<<<<<<branch1-name`, `=======`, `>>>>>>>branch2-name`), and the two versions of the conflicting line. 
+  ![alt_text](https://help.github.com/assets/images/help/pull_requests/view-merge-conflict-with-markers.png "Conflicts Step 2")
   * Choose the correct version of the line (or edit one version), then remove the other version and remove the symbols and the branch/fork names, <em>leaving only the text you want in the final version</em>.
   * Resolve any other marked conflicts in the file.
   * Click on Mark as Resolved.
-  ![alt_text](https://help.github.com/assets/images/help/pull_requests/mark-as-resolved-button.png "Mark Resolved")
+  ![alt_text](https://help.github.com/assets/images/help/pull_requests/mark-as-resolved-button.png "Conflicts Step 3")
   * Resolve conflicts in any other files.
   * Click on Commit Merge (and click on the I understand pop-up).
-  ![alt_text](https://help.github.com/assets/images/help/pull_requests/merge-conflict-commit-changes.png "Commit Merge")
+  ![alt_text](https://help.github.com/assets/images/help/pull_requests/merge-conflict-commit-changes.png "Conflicts Step 4")
   * Finally, click on Merge Pull Request, and then confirm the merge.
 
 
@@ -154,32 +155,31 @@ Now we have two branches: master and readme-edits
 
 
 ### Forks - Indirect Collaboration
-  If you aren't a collaborator in a repo, you can't branch that repo. However, you can "fork" it, which is just creates a clone of the repo on the GitHub server.
+  If you are not a collaborator in a repo, you can't branch that repo. However, you can "fork" it, which is just creates a clone of the repo on the GitHub server.
   1. You can't push changes directly back to the original repo.
   2. You'll want to work on keeping your fork in sync with the project
-    * add it to the original project as a remote, or
-    * fetching regularly from the original repo
+      * add it to the original project as a remote, or
+      * fetching regularly from the original repo
     
   Try forking from my repo, and make changes to the resulting fork, and then submit a pull request to me!
   
  
 ### Additional Items
   * Command Line Interface (CLI) [cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
-  * Organizations (such as https://github.com/UVA-RDS)
-  * [Webpages](https://pages.github.com/) (such as https://rjp0i.github.io/intro.html)
-  * Branches
+  * [Create your own Webpage](https://pages.github.com/) (such as https://rjp0i.github.io/intro.html)
+
 
 ## Getting Help
 
 * Please, feel free to email me: ricky@virginia.edu
 * The book <em>Computing Skills for Biologists: A Toolbox</em> contains a very useful introduction to Git, with practice data and code. Members of the UVA community can access the book [online](http://proxy01.its.virginia.edu/login?url=http://www.degruyter.com/isbn/9780691183961)
-  * The examples, data, code and solutions are hosted on a [github repo](https://github.com/CSB-book/CSB]https://github.com/CSB-book/CSB)
+  * The examples, data, code and solutions are hosted on a [github repo](https://github.com/CSB-book/CSB](https://github.com)/CSB-book/CSB)
 * Lots of [git](https://git-scm.com/)/[GitHub](https://guides.github.com/)/[GitLab](https://gitlab.com/help?nav_source=navbar) resources from the source, as well as free training through a number of github sites
-* StackOverflow is another good resource (e.g., for questions concerning git (or GitHub/GitLab): [https://stackoverflow.com/questions/tagged/git]https://stackoverflow.com/questions/tagged/git)
+* StackOverflow is another good resource (e.g., for questions concerning git (or GitHub/GitLab): [https://stackoverflow.com/questions/tagged/git](https://stackoverflow.com/questions/tagged/git)
 
 ## How to compare revisions
 * use the following style of URL with two commit hashes (Rev A and Rev B)
- * https://github.com/$USER/$REPO/compare/$REV_A...$REV_B
+  * of the form: github.com/$USER/$REPO/compare/$REV_A...$REV_B
 * $REV_A and B are the commit hashes for the versions you want to compare. You can get these by examining the Commit history of a file on Github
 
 # Ways to Practice
