@@ -1,9 +1,10 @@
 
 
+
 # UVA workshop!
 
 ```diff
--Last updated 20-Sep-2019
+-Last updated 28-Jan-2020
 ```
 
 > <em>Fork edits</em>
@@ -17,7 +18,7 @@ UVA Library Workshop on Introduction to Git and GitHub/GitLab.
 
 
 
-This file exists here: [https://github.com/rjp0i/git-intro](https://github.com/rjp0i/git-intro) (or visit [here](https://rjp0i.github.io/intro.Fall2019.html) for a prettified view)
+This file exists here: [https://github.com/rjp0i/git-intro](https://github.com/rjp0i/git-intro) (or visit [here](https://rjp0i.github.io/intro.Spring2020.html) for a prettified view)
 
 ## About Me
 * Ricky Patterson: I am the [Associate Director, Research Data Services, UVA Library](http://people.virginia.edu/~rjp0i)
