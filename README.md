@@ -93,7 +93,7 @@ git config --global user.email "Your Email"
 
 git config --list
 ```
-# How to get out of this?
+Type "q" to exit.
 
 ## Two Common scenarios while using Git
 
