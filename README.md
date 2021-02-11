@@ -60,7 +60,7 @@ The examples, data, code, and solutions are hosted on a [github repo](https://gi
 ### A brief history of Version Control
 
 * SVN (2000s) Centralized (client-server)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgit-scm.com%2Fbook%2Fen%2Fv2%2FGetting-Started-About-Version-Control&psig=AOvVaw384wyHdk4t4fy2sxidH_Wo&ust=1613155278740000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjTnIW_4u4CFQAAAAAdAAAAABAD)
 
 * git (2005) Distributed. Developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) for Linux development.
 
