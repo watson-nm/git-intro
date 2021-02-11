@@ -52,16 +52,10 @@ You can look at GitHub's [Git Handbook](https://guides.github.com/introduction/g
 2. Look at the GitHub Desktop interface
 3. Tips on getting help
 
-## Reference for Git
 
-The book <em>Computing Skills for Biologists: A Toolbox</em> contains a useful introduction to Git with practice data and code. Members of the UVA community can access the book [online](http://proxy01.its.virginia.edu/login?url=http://www.degruyter.com/isbn/9780691183961). 
-The examples, data, code, and solutions are hosted on a [github repo](https://github.com/CSB-book/CSB]https://github.com/CSB-book/CSB).
-
-### A brief history of Version Control
+## A brief history of Version Control
 
 * SVN (2000s) Centralized (client-server)
-![Image of Yaktocat](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgit-scm.com%2Fbook%2Fen%2Fv2%2FGetting-Started-About-Version-Control&psig=AOvVaw384wyHdk4t4fy2sxidH_Wo&ust=1613155278740000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjTnIW_4u4CFQAAAAAdAAAAABAD)
-
 * git (2005) Distributed. Developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) for Linux development.
 
 
@@ -85,10 +79,62 @@ We will be using the git command line tool for this workshop. There are also GUI
 
 If you are using Windows, open the git client. If you are on a Mac, open the terminal.
 
+Let's see which version of git you have and also to check if it is installed.
 ```
-test
+git --version
 ```
-test
+
+### Set Config Values
+
+This allows you to 
+```
+git config --global user.name "Your Name"
+git config --global user.email "Your Email"
+
+git config --list
+```
+# How to get out of this?
+
+## Two Common scenarios while using Git
+
+### 1. Initialize a repository from existing code
+This is the case that you have a local code base that you want to start tracking using git. So let's quickly create a few files. First, navigate to where you want them to be created.
+
+```
+mkdir testgit
+
+cd testgit
+
+touch testfile.txt
+
+ls
+```
+Now, open up testfile.txt in any text editor and copy the following code into testfile.txt. This is python code, but you don't need to know python in order to follow this example.
+
+```
+def add_function(a, b):
+    return a + b
+    
+def subtract_function(a, b):
+   return a - b
+```
+#### Track this code with git
+
+```
+git init
+
+ls - la
+```
+Because the .git directory is hidden, you need to use ```ls - la``` to see hidden files. The .git directory contains everything related to our repository. If you want to stop tracking this repo, you can just remove the .git directory as you would any other using ```rm -rf .git```
+
+
+#### Our first Commit
+
+Before we make a commit, let's check the status of the directory.
+
+```
+git status
+```
 
 
 
@@ -206,6 +252,12 @@ Now we have two branches: master and readme-edits
   * The examples, data, code and solutions are hosted on a [github repo](https://github.com/CSB-book/CSB](https://github.com)/CSB-book/CSB)
 * Lots of [git](https://git-scm.com/)/[GitHub](https://guides.github.com/)/[GitLab](https://gitlab.com/help?nav_source=navbar) resources from the source, as well as free training through a number of github sites
 * StackOverflow is another good resource (e.g., for questions concerning git (or GitHub/GitLab): [https://stackoverflow.com/questions/tagged/git](https://stackoverflow.com/questions/tagged/git)
+
+## Reference for Git
+
+The book <em>Computing Skills for Biologists: A Toolbox</em> contains a useful introduction to Git with practice data and code. Members of the UVA community can access the book [online](http://proxy01.its.virginia.edu/login?url=http://www.degruyter.com/isbn/9780691183961). 
+The examples, data, code, and solutions are hosted on a [github repo](https://github.com/CSB-book/CSB]https://github.com/CSB-book/CSB).
+
 
 ## How to compare revisions
 * use the following style of URL with two commit hashes (Rev A and Rev B)
