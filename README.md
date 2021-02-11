@@ -60,7 +60,7 @@ The examples, data, code, and solutions are hosted on a [github repo](https://gi
 ### A brief history of Version Control
 
 * SVN (2000s) Centralized (client-server)
-![_config.yml]({{ site.baseurl }}/centralvcs.png)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 * git (2005) Distributed. Developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) for Linux development.
 
