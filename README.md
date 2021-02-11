@@ -60,6 +60,7 @@ The examples, data, code, and solutions are hosted on a [github repo](https://gi
 ### A brief history of Version Control
 
 * SVN (2000s) Centralized (client-server)
+
 * git (2005) Distributed. Developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) for Linux development.
 
 
@@ -78,6 +79,8 @@ The examples, data, code, and solutions are hosted on a [github repo](https://gi
 
 
 # Let's Get Started!
+
+We will be using the git command line tool for this workshop. There are also GUI (graphical user interface) tools available, but version control is generally done at the command line. There is a limit to what the GUI tools can do and eventually you'll run into those barriers. Once you get used to it, the command line is the way to go.
 
 If you are using Windows, open the git client. If you are on a Mac, open the terminal.
 
