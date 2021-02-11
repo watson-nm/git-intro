@@ -14,15 +14,11 @@
 
 > <em>Changes made here. More changes.</em>
 
-UVA Library Workshop on Introduction to Git and GitHub/GitLab.
+UVA Library Workshop on Introduction to Version Control and Git/Github
 
-
-
-This file exists here: [https://github.com/rjp0i/git-intro](https://github.com/rjp0i/git-intro) (or visit [here](https://rjp0i.github.io/intro.Spring2020.html) for a prettified view)
 
 ## About Me
-* Ricky Patterson: I am the [Associate Director, Research Data Services, UVA Library](http://people.virginia.edu/~rjp0i)
-* I was a research astronomer for 20+ years here at UVA
+* Erich Purpur: I am a Research Librarian for Science & Engineering in the Brown Science & Engineering Library. I've been at UVA for about 3.5 years
 
 ## Data Resources in the UVA Library
 * [Research Data Services](https://data.library.virginia.edu/)
@@ -30,50 +26,79 @@ This file exists here: [https://github.com/rjp0i/git-intro](https://github.com/r
 
 ## First, our goals
 
-1. Everyone has a GitHub and GitLab account, and has GitHub Desktop running on their computer
-2. Create a repository and fork it
-3. Feel comfortable with git/github workflows
-4. Know how to get help
+1. Learn the background of version control
+2. Everyone has a GitHub account
+3. Create and fork a repository
+4. Feel comfortable with git/github workflows
+5. Know how to get help
 
 ## Second, some terms
 
-* git - version control software.
-* GitHub - a for profit company recently purchased by Microsoft. It provides cloud-based hosting of repositories.
+* git - version control software installed on your local machine
+* GitHub - a for profit company owned by Microsoft. It provides cloud-based hosting of repositories.
 * GitLab - an alternative to GitHub, not owned by Microsoft ([why you might want to switch](https://about.gitlab.com/2017/07/19/git-wars-switching-to-gitlab/)). "Free software deserves free tools."
 * repository (repo) - Basic unit in git: a record of all changes to specified files.
 * fork - personal copy of another users repo.
-* branch - a parallel version of a repo (main branch is called "master").
+* branch - a parallel version of a repo (main branch is called "main", formerly "master").
 
 [Git Glossary](https://help.github.com/en/articles/github-glossary)
 
 You can look at GitHub's [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 
-## Getting Git
-* To play along you will need a [GitHub](https://github.com) account --> https://github.com/
-
-* If on mac/linux you probably already have git, but we also want GitHub Desktop.
-  * go to [http://desktop.github.com](http://desktop.github.com) and download.
-  
-* If on windows, the latest version of GitHub desktop [http://desktop.github.com](http://desktop.github.com) is fine for today, but it won't include the git "command line tools."  They are available:
-  * Go to [https://gitforwindows.org/](https://gitforwindows.org/) and download.
-
 ## Outline
+
 0. Some background
 1. Work on the GitHub browser interface
 2. Look at the GitHub Desktop interface
 3. Tips on getting help
 
 ## Reference for Git
+
 The book <em>Computing Skills for Biologists: A Toolbox</em> contains a useful introduction to Git with practice data and code. Members of the UVA community can access the book [online](http://proxy01.its.virginia.edu/login?url=http://www.degruyter.com/isbn/9780691183961). 
 The examples, data, code, and solutions are hosted on a [github repo](https://github.com/CSB-book/CSB]https://github.com/CSB-book/CSB).
 
 ### A brief history of Version Control
-* CVS (1990s) Centralized (client-server)
+
 * SVN (2000s) Centralized (client-server)
 * git (2005) Distributed. Developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) for Linux development.
 
-### Getting Started: Hello World
-* Let's walk through GitHub's [Hello World Guide](https://guides.github.com/activities/hello-world/) in the steps below.
+
+## Things to have before we begin
+
+* Github account: https://github.com/
+   -Create a free account if you don't have one yet
+* A text editor or IDE. If you don't already have one, you can use something very simple like Notepad++: https://notepad-plus-plus.org/
+   -R studio
+   -Anaconda/Spyder
+   -Visual Studio Code
+   -Any plain text editor
+* Git
+  -For Windows: https://www.youtube.com/watch?v=albr1o7Z1nw (watch first 2:45)
+  -For Mac: Git is usually installed by default but just in case: https://www.youtube.com/watch?v=sJ4zr0a4GAs
+
+
+# Let's Get Started!
+
+If you are using Windows, open the git client. If you are on a Mac, open the terminal.
+
+```
+test
+```
+test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Using Github
 ### Step 0 - Inspect this Current Repo
