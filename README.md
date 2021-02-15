@@ -135,7 +135,7 @@ Before we make a commit, let's check the status of the directory. You'll see whi
 git status
 ```
 
-# INSERT IMAGE OF 'WHERE ARE WE NOW' FROM COREY SCHAFER
+![](images/gitworkflow.png)
 
 #### Add files to staging area
 
