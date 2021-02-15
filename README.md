@@ -176,19 +176,18 @@ git log
 ```
 
 ### Scenario 2: Track an Existing Remote project with Git
+This is probably more likely how you will be using git in reality. Someone, or a group, has probably has written some code that you want to download and use for yourself, make changes to, and develop over time. 
 
 #### First, fork my repository
-In the top right corner of the screen, find 'fork' and 
+In the top right corner of the screen, click 'fork'. You'll make a copy of my <b><i> git intro </i></b> repository for yourself. We are doing this so that we are not all pushing changes to my remote repository at once, but instead to your own repository as if it was the 'master'. 
 
-
-This is probably more likely how you will be using git in reality. Someone, or a group, has probably has written some code that you want to download and use for yourself, make changes to, and develop over time. 
 
 #### Clone a remote repository
 This creates a clone of a remote repository, a .git directory is created to track changes.
 ```
 git clone <url> <where to clone>
 ```
-If you want to clone this github repo to your current working directory, use the following:
+If you want to clone this github repo to your current working directory, use the following. Remember, this should be a URL to your own fork of the remote repository. Not mine!:
 ```
 git clone https://github.com/epurpur/git-intro . 
 ```
@@ -213,7 +212,7 @@ git branch -a
 #### Pushing Changes
 Now that we have a cloned repository, we want to develop our code and make changes to it. 
 
-#### Push changes
+#### Commit Changes
 
 First, let's see the changes we have made to the code
 ```
@@ -227,17 +226,105 @@ get status
 
 and make a commit LOCALLY. We have not yet changed anything in the remote repository.
 ```
-git commit -m 'Edited multiply function
+git commit -m 'Edited multiply function'
 ```
 
+#### Push changes to the remote repository
 
+Remember, we are now working on a project that could potentially have multiple developers. People could have been working on different parts of the code at the same time we were doing our own work, so first you want to pull any changes from the master branch of the remote repository that have been made since the last time we pulled from that repository.
 
+Origin is the name of the remote repository. Master is the name of the branch we are pushing to.
+```
+git pull origin master
+```
+Now let's push our changes to the remote repository.
+```
+git push origin master
+```
 
+## Branching
 
+So far we have been working only on the master branch of our repository. But this really isn't how you should use version control and git in your day to day workflow. This is where branching comes in. 
 
+A common workflow is to create a branch for your desired feature, then begin working off of that branch. 
 
+#### Creating a branch
 
+```
+git branch calc-divide
+```
+Now let's see our local branches to make sure it worked correctly. You see the * next to master, indicating we are still working in the master branch, though we have created a new one called 'calc-divide'.
+```
+git branch
+```
+And now we move into our new branch. We must check out the branch in order to work in it.
+```
+git checkout calc-divide
+```
+and let's make sure we are now working in the 'calc-divide' branch. See the * has now moved to our new branch. 
+```
+git branch
+```
+If that is all correct, now we can work on our features. So let's make some changes to our code. Once we have done that let's push our changes to our local branch.
+```
+git status
 
+git add -A
+
+git commit -m "changed divide function"
+```
+
+#### Push branch to remote repository
+```
+git push -u origin calc-divide
+```
+The '-u' tells git we want to associate our local 'calc-divide' branch without remote 'calc-divide' branch. 
+```
+git branch -a
+```
+Now see all our branches, both local and remote, to see that we have now created and pushed our 'calc-divide' branch to our remote repository. 
+
+We will now merge our 'calc-divide' branch with our master branch. 
+
+#### Checkout our local master branch
+First we want to do this merge locally before pushing it to the remote repository.
+```
+git checkout master
+```
+Pull any changes that have been made to the master branch while we have been working on our features.
+```
+git pull origin-master
+```
+Merge the branch
+```
+git merge calc-divide
+```
+Check to see that we have merged the branch
+```
+git branch --merged
+```
+Now, push the local master branch to the remote master branch
+```
+git push origin master
+```
+
+#### Delete the Branch
+Now that we have merged our branch, that feature is done and we can delete the branch. 
+
+First, let's delete it locally
+```
+git branch -d calc-divide
+```
+Don't forget, this branch now also exists in the remote repository. 
+```
+git branch -a
+```
+You should see that we still have the 'calc-divide' branch in the remote repository. Now we will delete it from the remote repository.
+```
+git push origin --delete calc-divide
+```
+
+This seems like a lot of work but it becomes very fast once you begin to do it every day!
 
 
 
