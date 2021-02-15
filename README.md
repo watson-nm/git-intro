@@ -97,7 +97,7 @@ Type "q" to exit.
 
 ## Two Common scenarios while using Git
 
-### 1. Initialize a repository from existing code
+### Scenario 1. Initialize a repository from existing code
 This is the case that you have a local code base that you want to start tracking using git. So let's quickly create a few files. First, navigate to where you want them to be created.
 
 ```
@@ -130,11 +130,111 @@ Because the .git directory is hidden, you need to use ```ls - la``` to see hidde
 
 #### Our first Commit
 
-Before we make a commit, let's check the status of the directory.
+Before we make a commit, let's check the status of the directory. You'll see which files are untracked in our directory.
 
 ```
 git status
 ```
+
+# INSERT IMAGE OF 'WHERE ARE WE NOW' FROM COREY SCHAFER
+
+#### Add files to staging area
+
+Add all the files
+```
+git add -A
+```
+or add them individually
+
+```
+git add testcode.py
+git add `your file name here`
+```
+
+if you made a mistake, you can remove them from the staging area
+
+```
+git reset 'your file name here'
+```
+
+#### Commit the changes
+
+When you make a commit, you want to write a descriptive message log. Not something generic like "made a bunch of changes". Be descriptive! If you need to look back in the commit logs for when you made an error, you will thank your former self that you left some clues about where to look. 
+```
+git commit -m "Message about changes here"
+```
+
+Let's look at the status again to make sure it worked.
+```
+git status
+```
+
+Or we can look at the commit we just made
+
+```
+git log
+```
+
+### Scenario 2: Track an Existing Remote project with Git
+
+#### First, fork my repository
+In the top right corner of the screen, find 'fork' and 
+
+
+This is probably more likely how you will be using git in reality. Someone, or a group, has probably has written some code that you want to download and use for yourself, make changes to, and develop over time. 
+
+#### Clone a remote repository
+This creates a clone of a remote repository, a .git directory is created to track changes.
+```
+git clone <url> <where to clone>
+```
+If you want to clone this github repo to your current working directory, use the following:
+```
+git clone https://github.com/epurpur/git-intro . 
+```
+
+Check to see if this worked and view what is inside your current directory
+```
+ls -la
+```
+
+#### View information about the remote repository
+
+List the information about the repository
+```
+git remote -v
+```
+
+List all of the branches in our repository (both locally and remote). We have not covered branches yet but we will very shortly!
+```
+git branch -a
+```
+
+#### Pushing Changes
+Now that we have a cloned repository, we want to develop our code and make changes to it. 
+
+#### Push changes
+
+First, let's see the changes we have made to the code
+```
+get diff
+```
+
+and check the status
+```
+get status
+```
+
+and make a commit LOCALLY. We have not yet changed anything in the remote repository.
+```
+git commit -m 'Edited multiply function
+```
+
+
+
+
+
+
 
 
 
