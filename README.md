@@ -126,7 +126,7 @@ def subtract_function(a, b):
 ```
 git init
 
-ls - la
+ls -la
 ```
 Because the .git directory is hidden, you need to use ```ls - la``` to see hidden files. The .git directory contains everything related to our repository. If you want to stop tracking this repo, you can just remove the .git directory as you would any other using ```rm -rf .git```
 
