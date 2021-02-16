@@ -60,9 +60,11 @@ You can look at GitHub's [Git Handbook](https://guides.github.com/introduction/g
 ## A brief history of Version Control
 
 * SVN (2000s) Centralized (client-server)
+Centralized version control systems are based on the idea that there is a single “central” copy of your project somewhere (probably on a server), and programmers will “commit” their changes to this central copy. “Committing” a change simply means recording the change in the central system.
 
 ![](images/centralvcs.png)
 * git (2005) Distributed. Developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) for Linux development.
+In software development, distributed version control is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer.
 
 ![](images/distributedvcs.png)
 
