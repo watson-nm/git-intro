@@ -1,12 +1,10 @@
 
 
-# UVA workshop!
 
-```diff
+```
 -Last updated 16-Feb-2021
 ```
 
-> <em>Fork edits</em>
 
 # UVA Library Workshop on Introduction to Version Control and Git/Github
 
