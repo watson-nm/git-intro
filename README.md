@@ -235,6 +235,7 @@ get status
 
 and make a commit LOCALLY. We have not yet changed anything in the remote repository.
 ```
+git add -A
 git commit -m 'Edited multiply function'
 ```
 
