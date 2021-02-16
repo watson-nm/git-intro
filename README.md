@@ -56,12 +56,6 @@
 
 You can look at GitHub's [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 
-## Outline
-
-0. Some background
-1. Use git/github via the command line
-2. Tips on getting help
-
 
 ## A brief history of Version Control
 
