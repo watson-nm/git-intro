@@ -66,8 +66,10 @@ You can look at GitHub's [Git Handbook](https://guides.github.com/introduction/g
 ## A brief history of Version Control
 
 * SVN (2000s) Centralized (client-server)
+
 ![](images/centralvcs.png)
 * git (2005) Distributed. Developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) for Linux development.
+
 ![](images/distributedvcs.png)
 
 
