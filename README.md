@@ -303,7 +303,7 @@ git checkout master
 ```
 Pull any changes that have been made to the master branch while we have been working on our features.
 ```
-git pull origin-master
+git pull origin master
 ```
 Merge the branch
 ```
