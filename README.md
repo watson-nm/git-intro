@@ -198,7 +198,7 @@ git clone <url> <where to clone>
 ```
 If you want to clone this github repo to your current working directory, use the following. Remember, this should be a URL to your own fork of the remote repository. Not mine!:
 ```
-git clone https://github.com/epurpur/git-intro . 
+git clone https://github.com/epurpur/git-intro 
 ```
 
 Check to see if this worked and view what is inside your current directory
@@ -225,12 +225,12 @@ Now that we have a cloned repository, we want to develop our code and make chang
 
 First, let's see the changes we have made to the code
 ```
-get diff
+git diff
 ```
 
 and check the status
 ```
-get status
+git status
 ```
 
 and make a commit LOCALLY. We have not yet changed anything in the remote repository.
