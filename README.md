@@ -225,12 +225,12 @@ Now that we have a cloned repository, we want to develop our code and make chang
 
 First, let's see the changes we have made to the code
 ```
-get diff
+git diff
 ```
 
 and check the status
 ```
-get status
+git status
 ```
 
 and make a commit LOCALLY. We have not yet changed anything in the remote repository.
