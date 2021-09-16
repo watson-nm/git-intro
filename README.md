@@ -2,7 +2,7 @@
 
 
 ```
--Last updated 17-Feb-2021
+-Last updated 16-Sept-2021
 ```
 
 
@@ -10,7 +10,7 @@
 
 
 ## About Me
-* Erich Purpur: I am a Research Librarian for Science & Engineering in the Brown Science & Engineering Library. I've been at UVA for about 3.5 years
+* Erich Purpur: I am a Research Librarian for Science & Engineering in the Brown Science & Engineering Library. I've been at UVA for about 4 years
 * ep9k@virginia.edu
 * I am a liaison for various Science & Engineering departments at UVA
 * I teach classes and workshops (like this one) related to python programming and also Geographic Information Systems (GIS)
