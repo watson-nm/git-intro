@@ -104,6 +104,8 @@ Type "q" to exit.
 This is the case that you have a local code base that you want to start tracking using git. So let's quickly create a few files. First, navigate to where you want them to be created.
 
 ```
+# first you should probably navigate to a place you like to save temporary files/folders such as your desktop
+
 mkdir testgit
 
 cd testgit
@@ -121,12 +123,22 @@ def add_function(a, b):
 def subtract_function(a, b):
    return a - b
 ```
+Just to prove a point, make sure that you are inside the `testgit` directory (folder)
+
+```
+pwd
+```
+
 #### Track this code with git
 
 ```
 git init
 
 ls -la
+
+#or 
+
+ls -a
 ```
 Because the .git directory is hidden, you need to use ```ls - la``` to see hidden files. The .git directory contains everything related to our repository. If you want to stop tracking this repo, you can just remove the .git directory as you would any other using ```rm -rf .git```
 
