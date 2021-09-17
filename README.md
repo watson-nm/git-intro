@@ -212,6 +212,11 @@ If you want to clone this github repo to your current working directory, use the
 ```
 git clone https://github.com/epurpur/git-intro 
 ```
+Navigate into the git-intro directory
+
+```
+cd git-intro
+```
 
 Check to see if this worked and view what is inside your current directory
 ```
@@ -235,17 +240,19 @@ Now that we have a cloned repository, we want to develop our code and make chang
 
 #### Commit Changes
 
-First, let's see the changes we have made to the code
+First, let's check the status of our code
+
+```
+git status
+```
+Now, make a change to the testcode.txt file. You can make any change you want it doesn't matter.
+
+Let's see what the differences in the code is:
 ```
 git diff
 ```
 
-and check the status
-```
-git status
-```
-
-and make a commit LOCALLY. We have not yet changed anything in the remote repository.
+Next, make a commit LOCALLY. Remember, we this is just the file on our local computer and no changes have been made in the remote repository.
 ```
 git add -A
 git commit -m 'Edited multiply function'
