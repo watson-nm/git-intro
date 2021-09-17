@@ -245,7 +245,12 @@ First, let's check the status of our code
 ```
 git status
 ```
-Now, make a change to the testcode.txt file. You can make any change you want it doesn't matter.
+Now, make a change to the testcode.txt file. Let's add a new 'divide' function. Add the following code onto the end of the textcode.txt file.
+
+```
+def divide(a, b):
+    return a / b
+```
 
 Let's see what the differences in the code is:
 ```
@@ -255,7 +260,7 @@ git diff
 Next, make a commit LOCALLY. Remember, we this is just the file on our local computer and no changes have been made in the remote repository.
 ```
 git add -A
-git commit -m 'Edited multiply function'
+git commit -m 'Added divide function'
 ```
 
 #### Push changes to the remote repository
