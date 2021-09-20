@@ -21,7 +21,7 @@
 ## Things to have before we begin
 
 * Github account: https://github.com/
-   -Create a free account if you don't have one yet
+   - Create a free account if you don't have one yet
 * A text editor or IDE. If you don't already have one, you can use something very simple like Notepad++: https://notepad-plus-plus.org/
    - R studio
    - Anaconda/Spyder
@@ -49,9 +49,12 @@
 * fork - personal copy of another users repo.
 * branch - a parallel version of a repo (main branch is called "main", formerly "master").
 
-[Git Glossary](https://help.github.com/en/articles/github-glossary)
+[Github's Git Glossary](https://help.github.com/en/articles/github-glossary)
 
-You can look at GitHub's [Git Handbook](https://guides.github.com/introduction/git-handbook/)
+[Github's Git Handbook](https://guides.github.com/introduction/git-handbook/)
+
+## What is Version Control?
+Version control is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
 
 
 ## A brief history of Version Control
