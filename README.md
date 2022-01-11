@@ -265,20 +265,20 @@ git commit -m 'Added divide function'
 
 #### Push changes to the remote repository
 
-Remember, we are now working on a project that could potentially have multiple developers. People could have been working on different parts of the code at the same time we were doing our own work, so first you want to pull any changes from the master branch of the remote repository that have been made since the last time we pulled from that repository.
+Remember, we are now working on a project that could potentially have multiple developers. People could have been working on different parts of the code at the same time we were doing our own work, so first you want to pull any changes from the main branch of the remote repository that have been made since the last time we pulled from that repository.
 
-Origin is the name of the remote repository. Master is the name of the branch we are pushing to.
+Origin is the name of the remote repository. Main is the name of the branch we are pushing to.
 ```
-git pull origin master
+git pull origin main
 ```
 Now let's push our changes to the remote repository.
 ```
-git push origin master
+git push origin main
 ```
 
 ## Branching
 
-So far we have been working only on the master branch of our repository. But this really isn't how you should use version control and git in your day to day workflow. This is where branching comes in. 
+So far we have been working only on the main branch of our repository. But this really isn't how you should use version control and git in your day to day workflow. This is where branching comes in. 
 
 A common workflow is to create a branch for your desired feature, then begin working off of that branch. 
 
@@ -287,7 +287,7 @@ A common workflow is to create a branch for your desired feature, then begin wor
 ```
 git branch calc-divide
 ```
-Now let's see our local branches to make sure it worked correctly. You see the * next to master, indicating we are still working in the master branch, though we have created a new one called 'calc-divide'.
+Now let's see our local branches to make sure it worked correctly. You see the * next to main, indicating we are still working in the main branch, though we have created a new one called 'calc-divide'.
 ```
 git branch
 ```
@@ -318,14 +318,14 @@ git branch -a
 ```
 Now see all our branches, both local and remote, to see that we have now created and pushed our 'calc-divide' branch to our remote repository. 
 
-We will now merge our 'calc-divide' branch with our master branch. 
+We will now merge our 'calc-divide' branch with our main branch. 
 
 #### Checkout our local main branch
 First we want to do this merge locally before pushing it to the remote repository.
 ```
 git checkout main
 ```
-Pull any changes that have been made to the master branch while we have been working on our features.
+Pull any changes that have been made to the main branch while we have been working on our features.
 ```
 git pull origin main
 ```
@@ -337,7 +337,7 @@ Check to see that we have merged the branch
 ```
 git branch --merged
 ```
-Now, push the local master branch to the remote master branch
+Now, push the local main branch to the remote main branch
 ```
 git push origin main
 ```
