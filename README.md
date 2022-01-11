@@ -320,14 +320,14 @@ Now see all our branches, both local and remote, to see that we have now created
 
 We will now merge our 'calc-divide' branch with our master branch. 
 
-#### Checkout our local master branch
+#### Checkout our local main branch
 First we want to do this merge locally before pushing it to the remote repository.
 ```
-git checkout master
+git checkout main
 ```
 Pull any changes that have been made to the master branch while we have been working on our features.
 ```
-git pull origin master
+git pull origin main
 ```
 Merge the branch
 ```
@@ -339,7 +339,7 @@ git branch --merged
 ```
 Now, push the local master branch to the remote master branch
 ```
-git push origin master
+git push origin main
 ```
 
 #### Delete the Branch
