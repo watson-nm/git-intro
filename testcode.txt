@@ -2,6 +2,7 @@
 This is a change to my code
 
 def add(a, b):
+     #this is stuff happening my function
     return a + b
 
 def subtract(a, b):
@@ -12,5 +13,8 @@ def multiply(a, b):
 
 def divide(a, b):
     Return a / b
+
+#this is a new comment to my code
+
 
 
