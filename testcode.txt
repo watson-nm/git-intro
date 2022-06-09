@@ -1,8 +1,6 @@
 
-This is a change to my code
 
 def add(a, b):
-     #this is stuff happening my function
     return a + b
 
 def subtract(a, b):
@@ -11,11 +9,6 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-Skjhffk
-
-#this is a new comment to my code
-
-#adding some even newer changes to my code
 
 
 
