@@ -2,7 +2,7 @@
 
 
 ```
--Last updated 12-Jan-2022
+-Last updated 09-June-2022
 ```
 
 
@@ -35,10 +35,9 @@
 ## First, our goals
 
 1. Learn the background of version control
-2. Everyone has a GitHub account
-3. Create and fork a repository
-4. Feel comfortable with git/github workflows
-5. Know how to get help
+2. Feel comfortable with git/github workflows
+3. Know how to get help
+
 
 ## Second, some terms
 
@@ -101,10 +100,31 @@ Type "q" to exit.
 ## Two Common scenarios while using Git
 
 ### Scenario 1. Initialize a repository from existing code
-This is the case that you have a local code base that you want to start tracking using git. So let's quickly create a few files. First, navigate to where you want them to be created.
+This is the case that you have a local code base that you want to start tracking using git. So let's quickly create a few files. First, we will do a quick aside to learn how to navigate the file structure in the command line.
+
+To see where you are in the file structure, type the following:
+```
+pwd
+```
+
+To see what files and folders this location contains...
+```
+ls
+```
+
+and to navigate to a file or folder do the following:
+```
+cd <directory name>
+cd Desktop
+```
+
+a quick shortcut to navigate to the previous directory:
+```
+cd ..
+```
 
 ```
-# first you should probably navigate to a place you like to save temporary files/folders such as your desktop
+# if you haven't yet you should probably navigate to a place you like to save temporary files/folders such as your desktop
 
 mkdir testgit
 
